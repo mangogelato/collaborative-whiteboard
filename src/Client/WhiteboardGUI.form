@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Client.WhiteboardGUI">
+  <grid id="27dc6" binding="gui" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1480" height="1098"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="3b10b" binding="menu" layout-manager="GridLayoutManager" row-count="8" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="6d1e2" class="javax.swing.JButton" binding="circleButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Circle"/>
+            </properties>
+          </component>
+          <component id="56c24" class="javax.swing.JButton" binding="rectangleButton">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Rectangle"/>
+            </properties>
+          </component>
+          <component id="cb008" class="javax.swing.JButton" binding="textButton">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Text"/>
+            </properties>
+          </component>
+          <component id="efd5e" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="6" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="a6bc7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Input desired text below:"/>
+            </properties>
+          </component>
+          <grid id="a0b19" binding="managerMenu" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="7" column="0" row-span="1" col-span="2" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <visible value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="a58a6" class="javax.swing.JButton" binding="resetCanvasButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Reset Canvas"/>
+                </properties>
+              </component>
+              <component id="efc7e" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <text value="Save"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="4925f" class="javax.swing.JButton" binding="filledCircleButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Filled Circle"/>
+            </properties>
+          </component>
+          <component id="fe4e4" class="javax.swing.JButton" binding="filledOvalButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Filled Oval"/>
+            </properties>
+          </component>
+          <component id="3c8e1" class="javax.swing.JButton" binding="filledRectangleButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Filled Rectangle"/>
+            </properties>
+          </component>
+          <component id="7a525" class="javax.swing.JButton" binding="ovalButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Oval"/>
+            </properties>
+          </component>
+          <component id="afbc" class="javax.swing.JButton" binding="lineButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Line"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="f380f" class="javax.swing.JColorChooser" binding="colourPicker">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+      </component>
+      <grid id="f58e9" binding="userList" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="8a02d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Users:"/>
+            </properties>
+          </component>
+          <component id="6f008" class="javax.swing.JTextPane" binding="userListTextPane">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <editable value="false"/>
+              <text value=""/>
+              <visible value="true"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="7bc40" binding="drawingCanvas" custom-create="true" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="600" height="600"/>
+            <preferred-size width="600" height="600"/>
+            <maximum-size width="600" height="600"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>
